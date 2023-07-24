@@ -1,0 +1,39 @@
+Question: Write the stages of the given sequence iin following below according to the sort type.
+
+[22,27,16,2,18,6] -> Insertion Sort
+
+
+Answer:
+
+[22,27,16,2,18,6] == n
+[2,22,27,16,18,6] == n-1
+[2,6,22,27,16,18] == n-2
+[2,6,16,22,27,18] == n-3
+[2,6,16,18,22,27] == 1
+
+Big O Notation = n*(n+1)/2 =(n^2+n) / 2 = n^2
+Big O Notation = n^2
+
+Question:
+
+Time Complexity: After the array is sorted, which of the following cases does the number 18 fall into?
+
+Average case: in the middle.
+Worst case: at the end of the given list.
+Best case: at the beginning of the given list.
+
+
+
+[2,6,16,18,22,27]
+
+Since the number 18, which is the number we are looking for, is in the middle of the array; appropriate scope is "Average Case"
+
+Question: Write the first 4 steps of the array given below a according to the Selection Sort.
+
+
+[7,3,5,8,2,9,4,15,6] 
+[7,3,5,8,2,9,4,15,6] n
+[2,7,3,5,8,9,4,15,6] n-1
+[2,3,7,5,8,9,4,15,6] n-2
+[2,3,4,7,5,8,9,15,6] n-3
+[2,3,4,5,7,8,9,15,6] n-4
